@@ -1,7 +1,7 @@
-# mahdimzadeh.github.io
+# Mahdi Mahmoudzadeh
 
 <html>
 
-<h>Mahdi Mahmoudzadeh</h>
+<h>Lecturer at the Univesrity of Auckland</h>
 
 </html>
