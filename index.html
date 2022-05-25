@@ -12,6 +12,24 @@ body {
   background: Snow;
   padding: 10px;
 }
+    
+   * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+    
+    
 </style>
 </head>
     
@@ -20,6 +38,9 @@ body {
         <br>
         <h2 style="color:DarkSlateBlue;">MAHDI MAHMOUDZADEH</h2>
   
+    
+<div class="row">
+  <div class="column">
 <p>Lecturer (Assistant Professor) at the University of Auckland, NZ<br>
 
 Department of Information Systems and Operations Management; <a href="https://profiles.auckland.ac.nz/mahdi-mahmoudzadeh" target="_blank">Profile</a><br>
@@ -29,7 +50,11 @@ Email: mahdi.mahmoudzadeh@auckland.ac.nz<br>
 <a href="https://scholar.google.com/citations?user=2SgR-aIAAAAJ&hl=en&oi=sra" target="_blank">Google Scholar</a><br>
 
 <a href="mailto:mahdi.mahmoudzadeh@auckland.ac.nz" target="_blank">CV (request)</a></p>
-
+  </div>
+   <div class="column">
+    <p>How to create side-by-side images with the CSS float property</p>
+  </div>
+</div>
   
   <h2 style="color:DarkSlateBlue;">Education</h2>
   
